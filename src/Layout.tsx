@@ -18,13 +18,9 @@ function Layout({ children }: Props) {
         <Navbar />
       </GridItem>
       <Show above="lg">
-        <GridItem area="aside" bg="tomato">
-          Aside
-        </GridItem>
+        <GridItem area="aside">Aside</GridItem>
       </Show>
-      <GridItem area="main" bg="blue">
-        {children}
-      </GridItem>
+      <GridItem area="main">{children}</GridItem>
     </Grid>
   );
 }

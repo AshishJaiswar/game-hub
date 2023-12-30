@@ -26,6 +26,7 @@ function Home() {
         base: "1fr",
         lg: "250px 1fr",
       }}
+      paddingX={4}
     >
       <GridItem area="nav">
         <Navbar />

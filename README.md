@@ -1,3 +1,28 @@
+# Game hub
+
+Game hub is a game library app built with React & Chakra UI using Rawg.io dataset
+
+# Configuration
+
+Create a .env file in the root of the application.
+Add `VITE_API_KEY = "<Rawg.io API Key>"`
+
+# Tools used
+
+- TypeScript
+- Vite (React app)
+- Chakra UI
+- React Router Dom
+- Tailwind
+
+# Game hub Preview
+
+![Game hub](./public/gamehub-preview.png)
+
+Game hub url: [game-hub-hazel-pi.vercel.app](https://game-hub-hazel-pi.vercel.app/)
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -17,12 +42,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
